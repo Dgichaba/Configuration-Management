@@ -5,6 +5,10 @@
     backend_image: dgichaba/yolo-backend:v1.0.1
     app_folder: /opt/yolo
   tasks:
+    - name: Clone the repository
+      git:
+        repo: https://github.com/Dgichaba/yolo.git
+        dest: /opt/yolo
     - name: Update the cache
       apt:
         update_cache: yes
