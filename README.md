@@ -1,23 +1,30 @@
-# Requirements
-Make sure that you have the following installed:
-- [node](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-18-04) 
-- npm 
-- [MongoDB](https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/) and start the mongodb service with `sudo service mongod start`
+# Configuration management Project
+#### Authored By : **Dorothy Gichaba**
+## Description
+The goal of this project is to create an Ansible Playbook and Terraform files that will be able to provision recources on GCP and start the yolo application.
+## Setup/Installation Requirements
+* Visual Studio Code
+* Git
+* Chrome browser
+* Terraform
+* GCP Account
+* Ansible 
+* Docker
+## Technologies Used
+* Markdown
+* Ansible
+* Terraform
+* Docker
+## Support and contact details
+If you run into any issue or have questions, ideas or concerns, kindly reach me though the contacts provided or feel free to make a contibution to the code.
+## Setup Instructions
+Clone the repository.Build, and run a functional and containerized e-commerce platform straight from the Ansible playbook.
+## Known bugs
+No known issues
+## List of contributors 
+Dorothy Gichaba
+## Contact Information
+If you have any question or contributions, please email me at dorothycherotich74@gmail.com
+## Licence Information
+Distributed under the MIT License. See License.txt for more information.
 
-## Navigate to the Client Folder 
- `cd client`
-
-## Run the folllowing command to install the dependencies 
- `npm install`
-
-## Run the folllowing to start the app
- `npm start`
-
-## Open a new terminal and run the same commands in the backend folder
- `cd ../backend`
-
- `npm install`
-
- `npm start`
-
- ### Go ahead a nd add a product (note that the price field only takes a numeric input)
